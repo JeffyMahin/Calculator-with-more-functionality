@@ -31,8 +31,9 @@ h1{
     text-align: right;
     padding: 0 5px;
     letter-spacing: 2px;
-    background-color: #ffe6ff;
+    background-color: white;
     color: black;
+    border:3px solid;
 
 }
 
@@ -61,6 +62,11 @@ h1{
 .cal_body .btn-style3{
     background-color: #FFA500;
 }
+
+.cal_body .btn-style4{
+    background-color: #e2f0f9;
+}
+
 
 
 

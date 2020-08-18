@@ -1,3 +1,11 @@
+var sq=Math.sqrt;
+var log=Math.log;
+var sin=Math.sin;
+var cos=Math.cos;
+var tan=Math.tan;
+var cbrt=Math.cbrt;
+var e=Math.exp;
+
 function clickNum(n) {
     var existingNumber= $('#result').val()
     $('#result').val(existingNumber + n)
@@ -19,27 +27,28 @@ function calculate() {
     $('#result').val(result)
 }
 
-function sqrtNum() {
-    var exist= $('#result').val()
-    $('#result').val(Math.sqrt(exist))
-}
+// function sqrtNum() {
+//     var exist= $('#result').val();
+//     $('#result').val(Math.sqrt(exist))
+// }
 
-function sinVal() {
-     var exist= $('#result').val()
-    $('#result').val(Math.sin(exist))
-}
-function cosVal() {
-     var exist= $('#result').val()
-    $('#result').val(Math.cos(exist))
-}
-function tanVal() {
-     var exist= $('#result').val()
-    $('#result').val(Math.tan(exist))
-}
-function squareNum() {
-    var exist= $('#result').val()
-    $('#result').val(exist**2)
-}
+// function sinVal() {
+//      var exist= $('#result').val()
+//     $('#result').val(Math.sin(exist))
+// }
+// function cosVal() {
+//      var exist= $('#result').val()
+//     $('#result').val(Math.cos(exist))
+// }
+// function tanVal() {
+//      var exist= $('#result').val()
+//     $('#result').val(Math.tan(exist))
+// }
+
+// function squareNum() {
+//     var exist= $('#result').val()
+//     $('#result').val(exist**2)
+// }
 
 function factorialNum() {
     var present= $('#result').val();
@@ -54,11 +63,15 @@ function factorialNum() {
 		$("#result").val(output);
 }
 
-function expNum() {
-    var present= $('#result').val();
-    $('#result').val(Math.exp(present));
-}
+// function expNum() {
+//     var present= $('#result').val();
+//     $('#result').val(Math.exp(present));
+// }
 
-function lnFun() {
-     $('#result').val(Math.log($('#result').val()));
-}
+// function lnFun() {
+//      $('#result').val(Math.log($('#result').val()));
+// }
+
+// function cubeRoot() {
+//     $('#result').val(Math.cbrt($('#result').val()));
+// }
